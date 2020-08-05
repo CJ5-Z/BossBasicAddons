@@ -508,38 +508,38 @@ exports.initialize = (modPath) => {
         Helpers.showMessage('Welcome to Boss Basic Addons. This mod ads components, modules and production, in addition to changing existing recipes in order to add a layer of complexity to the base game. This mod is a dependency for other mods in the Boss Suite. It is recommended to have Infinite Workstations enabled. Questions, concerns, and bug reports should be brought to cj5bossprofessional@gmail.com .');
 
         $rootScope = GetRootScope();
-        if($rootScope.options.language === "en"){ //GRAPHICS STILL NEED TO BE MADE!!!
+        if($rootScope.options.language === "en"){
             //Developer
                 //Basic
-            Language['basicinterface'] = "Basic Interface";
-            Language['backgroundtasks'] = "Background Tasks";
-            Language['htmlcomponent'] = "HTML Component";
-            Language['basicfeatureupgrader'] = "Basic Feature Upgrader";
+            Language['basicinterface'] = "Basic Interface"; //Graphics Done
+            Language['backgroundtasks'] = "Background Tasks"; //Graphics Done
+            Language['htmlcomponent'] = "HTML Component"; //Graphics Done
+            Language['basicfeatureupgrader'] = "Basic Feature Upgrader"; //Graphics Done
                 //Intermediate
-            Language['databasebacking'] = "Database Backing";
-            Language['processhandler'] = "Process Handler";
+            Language['databasebacking'] = "Database Backing"; //Graphics Done
+            Language['processhandler'] = "Process Handler"; //Graphics Done
                 //Expert
-            Language['efficiencycomponent'] = "Efficiency Component";
+            Language['efficiencycomponent'] = "Efficiency Component"; //Graphics Done
             //Designer
                 //Basic
-            Language['csscomponent'] = "CSS Component";
-            Language['aestheticscomponent'] = "Aesthetics Component";
+            Language['csscomponent'] = "CSS Component"; //Graphics Done
+            Language['aestheticscomponent'] = "Aesthetics Component"; //Graphics Done
             //Lead Developer
                 //Basic
-            Language['frameworkmodule'] = "Framework Module";
-            Language['aestheticsmodule'] = "Aesthetics Module";
-            Language['featureupgrader'] = "Feature Upgrader";
-            Language['featurefinalizer'] = "Feature Finalizer";
+            Language['frameworkmodule'] = "Framework Module"; //Graphics Done
+            Language['aestheticsmodule'] = "Aesthetics Module"; //Graphics Done
+            Language['featureupgrader'] = "Feature Upgrader"; //Graphics Done
+            Language['featurefinalizer'] = "Feature Finalizer"; //Graphics Done
                 //Intermediate
-            Language['condensedfeatures'] = "Condensed Features";
+            Language['condensedfeatures'] = "Condensed Features"; //Graphics Done
             //SysAdmin
                 //Basic
-            Language['basicsecuritysystem'] = "Basic Security System";
+            Language['basicsecuritysystem'] = "Basic Security System"; //Graphics Done
                 //Intermediate
-            Language['constantmonitor'] = "Constant Monitor";
-            Language['monitorset'] = "Monitor Set";
+            Language['constantmonitor'] = "Constant Monitor"; //Graphics Done
+            Language['monitorset'] = "Monitor Set"; //Graphics Done
                 //Expert
-            Language['maintenancepack'] = "Maintenance Pack";
+            Language['maintenancepack'] = "Maintenance Pack"; //Graphics Done
         }
     }
 }
