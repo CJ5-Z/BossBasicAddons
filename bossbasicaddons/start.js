@@ -64,7 +64,7 @@ exports.initialize = (modPath) => {
         //Expert
     ComponentNames.EfficiencyComponent = 'efficiencycomponent';
     Components.push({
-        name: ComponentNames.ProcessHandler,
+        name: ComponentNames.EfficiencyComponent,
         employeeLevel: Enums.EmployeeLevels.Expert,
         icon: modPath + 'graphics/developer/efficiencycomponent.png',
         employeeTypeName: Enums.EmployeeTypeNames.Developer,
