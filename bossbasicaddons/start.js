@@ -553,7 +553,7 @@ exports.initialize = (modPath) => {
 
     //Localizor and Load
     exports.onLoadGame = settings => {
-        GetRootScope().message("CJ5Boss", "Hello and welcome to Boss Basic Addons, the entry mod to the Boss Suite. This mod adds new components and modules to production lines for the developer, designer, lead developer and sys admin, changing their recipes and feature recipes along the way. NOTE: It is STRONGLY recommended to have no workstation cap and start with a little bit more money than usual. This mod is a required install for others in the Boss Suite. Email cj5bossprofessional@gmail.com with any bug reports, suggestions, or comments.");
+        GetRootScope().showMessage("CJ5Boss", "Hello and welcome to Boss Basic Addons, the entry mod to the Boss Suite. This mod adds new components and modules to production lines for the developer, designer, lead developer and sys admin, changing their recipes and feature recipes along the way. NOTE: It is STRONGLY recommended to have no workstation cap and start with a little bit more money than usual. This mod is a required install for others in the Boss Suite. Email cj5bossprofessional@gmail.com with any bug reports, suggestions, or comments.");
 
         $rootScope = GetRootScope();
         if($rootScope.options.language === "en"){
