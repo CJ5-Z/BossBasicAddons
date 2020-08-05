@@ -328,7 +328,7 @@ exports.initialize = (modPath) => {
     }
     Components.find(component => component.name == ComponentNames.NotificationModule).requirements = 
     {
-        "UIComponent": 1,
+        "UiComponent": 1,
         "BackendComponent": 1,
         "NetworkComponent": 1,
         "csscomponent": 1
