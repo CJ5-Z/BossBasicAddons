@@ -505,8 +505,6 @@ exports.initialize = (modPath) => {
 
     //Localizor and Load
     exports.onLoadGame = settings => {
-        Helpers.showMessage('Welcome to Boss Basic Addons. This mod ads components, modules and production, in addition to changing existing recipes in order to add a layer of complexity to the base game. This mod is a dependency for other mods in the Boss Suite. It is recommended to have Infinite Workstations enabled. Questions, concerns, and bug reports should be brought to cj5bossprofessional@gmail.com .');
-
         $rootScope = GetRootScope();
         if($rootScope.options.language === "en"){
             //Developer
