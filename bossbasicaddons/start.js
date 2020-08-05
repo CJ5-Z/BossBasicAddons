@@ -145,7 +145,7 @@ exports.initialize = (modPath) => {
         }
     });
            //Intermediate
-    ComponentNames.CondensedFeatures = 'condesnedfeatures';
+    ComponentNames.CondensedFeatures = 'condensedfeatures';
     Components.push({
         name: ComponentNames.CondensedFeatures,
         employeeLevel: Enums.EmployeeLevels.Intermediate,
