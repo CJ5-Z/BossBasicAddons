@@ -503,6 +503,54 @@ exports.initialize = (modPath) => {
         }
     )
 
+    //Back to early on per type of website
+    Object.assign(Features.find(feature => feature.name == FeatureNames.VideoFunctionality).requirements,
+        {
+            "FrontendModule": 1,
+            "VideoPlaybackModule": 1,
+            "featureupgrader": 1
+        }
+    )
+    Object.assign(Features.find(feature => feature.name == FeatureNames.ItemListing).requirements,
+        {
+            "BackendModule": 1,
+            "FrontendModule": 1,
+            "ContentManagementModule": 1,
+            "featureupgrader": 1
+        }
+    )
+    Object.assign(Features.find(feature => feature.name == FeatureNames.CommentFunctionality).requirements,
+        {
+            "BackendModule": 3,
+            "InputModule": 3,
+            "featureupgrader": 1
+        }
+    )
+    Object.assign(Features.find(feature => feature.name == FeatureNames.ImageUpload).requirements,
+        {
+            "InputModule": 1,
+            "StorageModule": 1,
+            "DatabaseLayer": 2,
+            "FrontendModule": 1,
+            "UiSet": 1,
+            "condensedfeatures": 1,
+            "featureupgrader": 1,
+            "featurefinalizer": 1
+        }
+    )
+    Object.assign(Features.find(feature => feature.name == FeatureNames.VideoEditor).requirements,
+        {
+            "VideoPlaybackModule": 1,
+            "StorageModule": 1,
+            "FrontendModule": 1,
+            "BackendModule": 1,
+            "UiSet": 1,
+            "condensedfeatures": 1,
+            "featureupgrader": 1,
+            "featurefinalizer": 1
+        }
+    )
+
     //Localizor and Load
     exports.onLoadGame = settings => {
         $rootScope = GetRootScope();
