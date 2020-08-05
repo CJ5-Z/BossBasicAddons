@@ -183,14 +183,14 @@ exports.initialize = (modPath) => {
     }); 
     ComponentNames.MonitorSet = 'monitorset';
     Components.push({
-        name:ComponentNames.MonitorSet,
+        name :ComponentNames.MonitorSet,
         employeeLevel:Enums.EmployeeLevels.Intermediate,
         icon: modPath + 'graphics/sysadmin/monitorset.png',
         employeeTypeName:Enums.EmployeeTypeNames.SysAdmin,
         type: ComponentTypes.Module,
         requirements:{
             'basicsecuritysystem': 2,
-            'contantmonitor': 1,
+            'constantmonitor': 1,
             'ContinuousIntegration': 1
         }
     });
