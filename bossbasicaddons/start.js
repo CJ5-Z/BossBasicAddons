@@ -421,7 +421,7 @@ exports.initialize = (modPath) => {
     //Feature Recipe Edits
     Object.assign(Features.find(feature => feature.name == FeatureNames.LandingPage).requirements,
         {
-            "Uicomponent": 1,
+            "UiComponent": 1,
             "BackendComponent": 1,
             "BlueprintComponent": 1,
             "GraphicsComponent": 1,
