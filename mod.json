@@ -1,6 +1,6 @@
 {
     "name": "Boss Basic Addons",
     "author": "CJ5Boss",
-    "displayName": "Boss Basic Addons v0.2",
-    "description": "Adds new components, modules and production, adding an extra layer of complexity. This mod is part of the Boss Suite and is a required install for other Boss Suite mods. It is recommended to have infinite workstations when playing this suite of mods."
+    "displayName": "Boss Basic Addons v0.2.1",
+    "description": "Adds new component and modules to all three kits of the Developer, Designer, Lead Developer, and SysAdmin. Edits and balances existing recipes for modules and features, adding extra complexity to the base game. This mod is a prerequisite for other mods in the Boss Suite of Startup Company mods. Please see github.com/CJ5-Z/BossBasicAddons for all info (updates will happen there first)."
 }
